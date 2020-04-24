@@ -1,4 +1,0 @@
-#!/usr/bin/bash
-args=("$@"); 
-/usr/share/proto $@ | egrep -v "EST"
-/usr/share/proto $@ | egrep "ssh" | egrep "EST"
