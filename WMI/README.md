@@ -7,7 +7,7 @@ These can be made to execute various tasks, but in this example we are using WMI
 This was thrown together in a rush effort to prevent our tokens from being overwritten during SANS Netwars.
 With this being the case, there is still much room for improvement so feel free to modify as you see fit.
 
-# Set-up
+## Set-up
 The following commands will need to be used to build each WMI object in powershell. Be sure to replace the file paths for each object you create.
 Note that a powershell script will need to be created to be executed in the WMI Event Consumer. Three of these have been pre-made for SMB, FTP, and OHSDB.
 
